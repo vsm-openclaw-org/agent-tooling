@@ -1,0 +1,9 @@
+name: CI
+on: [pull_request]
+jobs:
+  skill-guard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run Skill Guard (placeholder)
+        run: echo 'Run skill guard'
